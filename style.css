@@ -1,0 +1,24 @@
+/* body no margins */
+body {
+    margin: 0;
+    padding: 0;
+}
+/* canvasContainer full page width */
+.canvasContainer {
+  display: none;
+  width: 100%;
+  /* height: 100%; */
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+/* canvas full width */
+.canvas {
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border: 1px solid #000;
+}
