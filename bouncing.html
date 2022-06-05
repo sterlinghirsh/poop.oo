@@ -1,0 +1,27 @@
+<!-- Displays an HTML Canvas -->
+<html>
+<head>
+<title>Canvas</title>
+<!-- UTF-8 Charset -->
+<meta charset="utf-8">
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Poop emoji -->
+    <button id="emoji" style="font-size: 100px;">💩</button>
+    <!-- Canvas container div -->
+    <div id="canvasContainer">
+    <!-- Canvas with full page width and black border-->
+        <canvas id="canvas" height="500" style="display: none; border: 1px black solid">
+            Your browser does not support the HTML5 canvas tag.
+        </canvas>
+    </div>
+    <!-- Poop speed -->
+    <!-- Label -->
+    <label for="speed">Poop speed:</label>
+    <input type="range" id="speed" min="1" max="10" value="5" onchange="changeSpeed()">
+    <!-- Get main.js -->
+    <script src="main.js"></script>
+</body>
+</html>
